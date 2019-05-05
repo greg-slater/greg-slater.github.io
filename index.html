@@ -1,13 +1,158 @@
-<html>
-<head>
-  <meta charset="UTF-8">
-  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>
+       Greg Slater
+    </title>
+    <link rel="stylesheet" href="files/tachyons.css"/>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+  </head>
 
 
-<body>
+<body class = "black-70">
+<!-- <p>Test text hello</p> -->
+<!-- <section class="bg-white-10 pt5-ns pt4 ph5-ns ph4 black-80 lato"> -->
+<section class="fl w-100 ph5-ns mt4 bg-white-10">
+  <div class="fl w-90">
+    <h1 class = "f1 lh-title sans-serif">Greg Slater</h1>
+  </div>
+  <div class="fl w-10 mt4">
+    <!-- https://github.com/greg-slater/ -->
+    <a href = "https://www.linkedin.com/in/greg-slater-in/">
+      <img src="images/linkedin.png" class="w-20" alt="linkedin logo">
+    </a>
+    <a href = "https://github.com/greg-slater/">
+      <img src="images/github.png" class="w-20" alt="linkedin logo">
+    </a>
+  </div>
+  <!-- <div class="fl w-10 mt4"> -->
+    <!-- <a href = "https://github.com/greg-slater/">
+      <img src="images/github.png" class="w-20" alt="linkedin logo">
+    </a> -->
+  <!-- </div> -->
+  <div class="fl w-70">
+    <h2 class = "f2 lh-title sans-serif">About Me</h2>
+    <p class = "f4 lh-copy baskerville">
+      I’m a data enthusiast with a passion for coding and mapping, and interests in
+      open data, tech for good, algorithmic transparency and civic tech. <br> <br>
+      I split my time studying for a masters in spatial data science & visualisation
+      and working as a data analyst in the customer insight team at John Lewis. <br> <br>
+      Below are some of the pieces of work I've completed over the last year or so.
+    </p>
+  </div>
+</section>
+
+<section class="fl w-100 ph5-ns mt2 bg-white-10">
+  <h2 class = "f2 lh-title sans-serif"> Projects</h2>
+</section>
+
+<section class="fl w-100 ph5-ns mt1 cs w-100 bg-white-10">
 
 
+  <div class = "fl w-30 pa2 dim pointer">
+    <a href = "https://greg-slater.shinyapps.io/shiny_app/">
+      <img src="images/atmosphere_500.png" class="mw-100" alt="atmosphere thumbnail">
+    </a>
+  </div>
+
+  <div class = "fl w-70 mh4 measure-wide">
+    <h3 class = "f3 sans-serif">Atmospheric Inequality in London</h3>
+    <p class = "f5 lh-copy baskerville">
+      An interactive map visualisation created to explore differential exposure
+      to NO2 in London. The tool allows the user to show Index of Multiple Deprivation data alongside
+      modelled NO2 levels from the London Atmospheric Emissions Inventory.
+    </p>
+    <p class = "f5 lh-copy baskerville">
+      Created using shiny and leaflet.
+    </p>
+  </div>
+
+  <div class = "fl w-100 pa3"></div>
+  <div class = "fl w-100 pa3 bt b--light-gray"></div>
+
+  <div class = "fl w-30 pa2 dim pointer">
+    <a href = "yelp/index.html">
+      <img src="images/yelp_500.png" class="mw-100" alt="yelp thumbnail">
+    </a>
+  </div>
+  <div class = "fl w-70 mh4 measure-wide">
+    <h3 class = "f3 sans-serif">London Nightlive Visualisation</h3>
+    <p class = "f5 lh-copy baskerville">
+      An interactive and animated map visualisation created to show the rhythms of London's nightlife.
+    </p>
+    <p class = "f5 lh-copy baskerville">
+      Created using <a href="https://p5js.org/">P5.js</a>, <a href="https://mappa.js.org/">Mappa.js</a>,
+      and <a href="https://www.mapbox.com/">Mapbox</a>.
+    </p>
+  </div>
+
+  <div class = "fl w-100 pa3"></div>
+  <div class = "fl w-100 pa3 bt b--light-gray"></div>
+
+  <div class = "fl w-30 pa2 dim pointer">
+    <a href = "https://github.com/greg-slater/GIS">
+      <img src="images/internet_500.png" class="mw-100" alt="internet thumbnail">
+    </a>
+  </div>
+
+  <div class = "fl w-70 mh4 measure-wide">
+    <h3 class = "f3 sans-serif">Mapping Tools Comparison</h3>
+    <p class = "f5 lh-copy baskerville">
+      A university assignment to eplore a dataset using two different applications.
+    </p>
+    <p class = "f5 lh-copy baskerville">
+      I used data from the Oxford Internet Institute on digital inequality in England to
+      compare the relative advantages and disadvantages of creating maps in R and QGIS.
+    </p>
+  </div>
+
+  <div class = "fl w-100 pa3"></div>
+  <div class = "fl w-100 pa3 bt b--light-gray"></div>
+
+  <div class = "fl w-30 pa2 dim pointer">
+    <a href = "https://github.com/greg-slater/charity_search">
+      <img src="images/charity_500.png" class="mw-100" alt="charity thumbnail">
+    </a>
+  </div>
+
+  <div class = "fl w-70 mh4 measure-wide">
+    <h3 class = "f3 sans-serif">DataKind Charity Search</h3>
+    <p class = "f5 lh-copy baskerville">
+      DataKind are a charity who help social change organisations to improve their impact using
+      data science. I built a tool to help them find suitable organisations to work with.
+    </p>
+    <p class = "f5 lh-copy baskerville">
+      It runs keyword matching on open data from the Charity Commission and 360 Giving
+      to identify charity missions which align with DataKind's objectives and allows the user to explore
+      the results in an interactive dashboard. Created with Python and Bokeh.
+    </p>
+  </div>
+
+  <div class = "fl w-100 pa3"></div>
+  <div class = "fl w-100 pa3 bt b--light-gray"></div>
+
+  <div class = "fl w-30 pa2 dim pointer">
+    <a href = "https://greg-slater.github.io">
+      <img src="images/website_500.png" class="mw-100" alt="charity thumbnail">
+    </a>
+  </div>
+
+  <div class = "fl w-70 mh4 measure-wide">
+    <h3 class = "f3 sans-serif">This Website</h3>
+    <p class = "f5 lh-copy baskerville">
+      A very simple web development project to showcase some of my work and play around
+      with <a href="https://http://tachyons.io/">Tachyons</a>.
+    </p>
+  </div>
+
+  <div class = "fl w-100 pa3"></div>
+  <div class = "fl w-100 pa3 bt b--light-gray"></div>
+
+  <div class = "fl w-100 pa3"></div>
+  <div class = "fl w-100 f7 pa3 black-40">Icons made by <a href="https://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
+</section>
 
 <script>
 </script>
